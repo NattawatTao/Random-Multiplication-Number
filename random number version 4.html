@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>สุ่มตัวเลขไม่ซ้ำ</title>
+    <title>สุ่มตัวเลขการคูณ</title>
     <style>
         body {
             display: flex;
@@ -60,7 +60,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>สุ่มตัวเลขไม่ซ้ำ</h1>
+        <h1>สุ่มตัวเลขการคูณ</h1>
         <button id="randomButton" onclick="randomNumbers()">สุ่มตัวเลข</button>
         <button onclick="clearHistory()">ล้างประวัติ</button>
         <p id="result"></p>
@@ -116,9 +116,8 @@
             document.getElementById("history").innerHTML = "";
             document.getElementById("randomButton").disabled = false; // เปิดใช้งานปุ่มอีกครั้ง
         }
-
-        // เรียกฟังก์ชัน randomNumbers() เมื่อหน้าเว็บโหลดเสร็จ
-        window.onload = randomNumbers;
     </script>
 </body>
+</html>
+
 </html>
